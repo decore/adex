@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" name="viewport" />
+    <title>Adex International | Бронирования</title>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="js/vendor/footable/css/footable.core.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="js/vendor/datepicker/datepicker.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="js/vendor/selectbox/selectbox.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="js/vendor/fotorama/fotorama.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/project.css" media="screen" rel="stylesheet" type="text/css" /><script src="js/html5shiv.js" type="text/javascript"></script><!--[if lt IE 9]><script src="js/html5shiv.js" type="text/javascript"></script><script src="js/respond.min.js"></script><style type="text/css">
+    <div class="gradient" filter:="" none=""></div>
+    </style><![endif]-->
+  </head>
+  <body class="cabinet-booking">
+    <div class="container">
+      <header class="header gradient">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-3 logo">
+            <a href="#"><img src="img/base/logo.png" /></a>
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-4 col-md-offset-5 user-block">
+            <form class="form">
+              <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                  <div class="form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Имя пользователя" />
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="password" name="password" placeholder="Пароль" />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <button class="btn btn-orange">Вход</button><a class="xs orange" href="#">Забыл пароль</a><a class="xs orange" href="#">Регистрация</a>
+                </div>
+              </div>
+            </form>
+            <div class="cabinet pull-right">
+              <img class="pull-left" src="img/photo/photo.jpg" />
+              <div class="pull-right">
+                <a class="sm dark-gray" href="#">Личный кабинет</a><a class="sm dark-gray pull-right" href="#">Выход</a>
+              </div>
+              <div class="clearfix name">
+                <p class="md orange mp-semibold">
+                  Ирина Матвеева
+                </p>
+              </div>
+              <div class="pull-right">
+                <a class="orange" href="#">Мои бронирования</a><a class="orange pull-right" href="#">Корзина</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main role="main"><div class="container">
+        <h3 class="orange mp-semibold">
+          Личный кабинет
+        </h3>
+        <br />
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="form-block">
+              <form class="form">
+                <h5 class="mp-italic">
+                  Номер бронирования
+                </h5>
+                <div class="row">
+                  <div class="col-sm-9">
+                    <div class="form-group">
+                      <label for="book-number">Номер</label><input class="form-control" id="book-number" name="book-number" type="text" />
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <button class="btn btn-orange pull-right" type="submit">Поиск</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="form-block">
+              <form class="form">
+                <h5 class="mp-italic">
+                  Дата
+                </h5>
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="form-group">
+                      <div class="input-daterange input-group date">
+                        <label for="book-date-in">От</label><input class="form-control" id="book-date-in" name="book-date-in" type="text" /><span class="input-group-addon"><img src="img/base/date-sign.png" /></span><label for="book-date-out">До</label><input class="form-control" id="book-date-out" name="book-date-out" type="text" /><span class="input-group-addon"><img src="img/base/date-sign.png" /></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <button class="btn btn-orange pull-right">Поиск</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="booking-results">
+          <h4>
+            Найдено 9 бронирований
+          </h4>
+          <div class="wrap">
+            <div class="head-bg"></div>
+            <div class="table-responsive">
+              <table cellspacing="0" class="table wrap-table">
+                <thead>
+                  <tr class="navy lg">
+                    <th>
+                      Референс
+                    </th>
+                    <th>
+                      Турист
+                    </th>
+                    <th>
+                      Подтверждение
+                    </th>
+                    <th>
+                      Состояние
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="lg">
+                    <td>
+                      Amstel
+                    </td>
+                    <td></td>
+                    <td>
+                      10.07.2014
+                    </td>
+                    <td class="status">
+                      Подтвержденный
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <div class="booking-item">
+                        <dl class="dl-horizontal dl-inline-right">
+                          <dt>
+                            <h3 class="navy mp-semibold">
+                              Сумма:
+                            </h3>
+                          </dt>
+                          <dd>
+                            <h3 class="no-wrap orange mp-semibold">
+                              690 EUR
+                            </h3>
+                          </dd>
+                        </dl>
+                        <dl class="dl-horizontal dl-inline">
+                          <dt>
+                            <h4 class="navy">
+                              Агент:
+                            </h4>
+                          </dt>
+                          <dd>
+                            <h4>
+                              Ирина Матвеева
+                            </h4>
+                          </dd>
+                        </dl>
+                        <table class="table booking-info">
+                          <thead>
+                            <tr class="mp-italic">
+                              <th>
+                                Услуги
+                              </th>
+                              <th>
+                                Номер бронирования
+                              </th>
+                              <th>
+                                От
+                              </th>
+                              <th>
+                                До
+                              </th>
+                              <th>
+                                Дата отмены
+                              </th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="service transfer">
+                                Амстердам-Брюгге-Брюссель
+                              </td>
+                              <td>
+                                AMS20140714
+                              </td>
+                              <td>
+                                21.07.2014
+                              </td>
+                              <td>
+                                24.07.2014
+                              </td>
+                              <td>
+                                18.07.2014, 08:12:34
+                              </td>
+                              <td class="text-right">
+                                <button class="btn btn-red-orange">Отменить</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <hr class="hr-sep" />
+                        <button class="btn btn-white" type="button">Добавить услугу</button><button class="btn btn-white" type="button">Другие услуги</button><button class="btn btn-orange pull-right" type="button">Ваучер и инвойс </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      Petrov
+                    </td>
+                    <td></td>
+                    <td>
+                      10.07.2014
+                    </td>
+                    <td class="status">
+                      Подтвержденный
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <div class="booking-item">
+                        <dl class="dl-horizontal dl-inline-right">
+                          <dt>
+                            <h3 class="navy mp-semibold">
+                              Сумма:
+                            </h3>
+                          </dt>
+                          <dd>
+                            <h3 class="no-wrap orange mp-semibold">
+                              895 EUR
+                            </h3>
+                          </dd>
+                        </dl>
+                        <dl class="dl-horizontal dl-inline">
+                          <dt>
+                            <h4 class="navy">
+                              Агент:
+                            </h4>
+                          </dt>
+                          <dd>
+                            <h4>
+                              Сергей Ионов
+                            </h4>
+                          </dd>
+                        </dl>
+                        <table class="table booking-info">
+                          <thead>
+                            <tr class="mp-italic">
+                              <th>
+                                Услуги
+                              </th>
+                              <th>
+                                Номер бронирования
+                              </th>
+                              <th>
+                                От
+                              </th>
+                              <th>
+                                До
+                              </th>
+                              <th>
+                                Дата отмены
+                              </th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="service transfer">
+                                Амстердам-Брюгге-Брюссель
+                              </td>
+                              <td>
+                                AMS20140714
+                              </td>
+                              <td>
+                                21.07.2014
+                              </td>
+                              <td>
+                                24.07.2014
+                              </td>
+                              <td>
+                                18.07.2014, 08:12:34
+                              </td>
+                              <td class="text-right">
+                                <button class="btn btn-red-orange">Отменить</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <hr class="hr-sep" />
+                        <table class="table booking-info">
+                          <thead>
+                            <tr class="mp-italic">
+                              <th>
+                                Услуги
+                              </th>
+                              <th>
+                                Номер бронирования
+                              </th>
+                              <th>
+                                От
+                              </th>
+                              <th>
+                                До
+                              </th>
+                              <th>
+                                Дата отмены
+                              </th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="service hotel">
+                                Амстердам-Брюгге-Брюссель
+                              </td>
+                              <td>
+                                &mdash;
+                              </td>
+                              <td>
+                                03.08.2014
+                              </td>
+                              <td>
+                                10.08.2014
+                              </td>
+                              <td>
+                                04.07.2014, 08:12:34
+                              </td>
+                              <td class="text-right">
+                                <button class="btn btn-red-orange">Отменить</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <hr class="hr-sep" />
+                        <button class="btn btn-white" type="button">Добавить услугу</button><button class="btn btn-white" type="button">Другие услуги</button><button class="btn btn-orange pull-right" type="button">Ваучер и инвойс </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      Suntravel
+                    </td>
+                    <td></td>
+                    <td>
+                      10.07.2014
+                    </td>
+                    <td class="status">
+                      Подтвержденный
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <div class="booking-item">
+                        <dl class="dl-horizontal dl-inline-right">
+                          <dt>
+                            <h3 class="navy mp-semibold">
+                              Сумма:
+                            </h3>
+                          </dt>
+                          <dd>
+                            <h3 class="no-wrap orange mp-semibold">
+                              690 EUR
+                            </h3>
+                          </dd>
+                        </dl>
+                        <dl class="dl-horizontal dl-inline">
+                          <dt>
+                            <h4 class="navy">
+                              Агент:
+                            </h4>
+                          </dt>
+                          <dd>
+                            <h4>
+                              Ирина Матвеева
+                            </h4>
+                          </dd>
+                        </dl>
+                        <table class="table booking-info">
+                          <thead>
+                            <tr class="mp-italic">
+                              <th>
+                                Услуги
+                              </th>
+                              <th>
+                                Номер бронирования
+                              </th>
+                              <th>
+                                От
+                              </th>
+                              <th>
+                                До
+                              </th>
+                              <th>
+                                Дата отмены
+                              </th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="service transfer">
+                                Амстердам-Брюгге-Брюссель
+                              </td>
+                              <td>
+                                AMS20140714
+                              </td>
+                              <td>
+                                21.07.2014
+                              </td>
+                              <td>
+                                24.07.2014
+                              </td>
+                              <td>
+                                18.07.2014 08:12:34
+                              </td>
+                              <td class="text-right">
+                                <button class="btn btn-red-orange">Отменить</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <hr class="hr-sep" />
+                        <button class="btn btn-white" type="button">Добавить услугу</button><button class="btn btn-white" type="button">Другие услуги</button><button class="btn btn-orange pull-right" type="button">Ваучер и инвойс </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div></main>
+    <footer class="footer">
+      <h4 class="text-center">
+        &copy; ADEX International 2014
+      </h4>
+    </footer>
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/vendor/footable/js/footable.js" type="text/javascript"></script>
+    <script src="js/vendor/footable/js/footable.filter.js" type="text/javascript"></script>
+    <script src="js/vendor/selectbox/jquery.selectbox.js" type="text/javascript"></script>
+    <script src="js/vendor/fotorama/fotorama.js" type="text/javascript"></script>
+    <script src="js/vendor/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="js/vendor/datepicker/bootstrap-datepicker.ru.js" type="text/javascript"></script>
+    <script src="js/all.js" type="text/javascript"></script>
+  </body>
+</html>

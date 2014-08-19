@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/myriadproregular.eot');
+	src: local('MyriadPro-Regular'), url('../fonts/myriadproregular.woff') format('woff'),
+	 url('../fonts/myriadproregular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_6757">Text with this font applied</p> */
+.mp-regular {
+	font-family: 'MyriadPro-Regular' !important;
+}
+
+@font-face {
+	font-family: 'MyriadPro-Italic';
+	src: url('../fonts/m-pro-italic.eot');
+	src: local('MyriadPro-Italic'), url('../fonts/m-pro-italic.woff') format('woff'),
+	 url('../fonts/m-pro-italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.mp-italic{
+	font-family: 'MyriadPro-Italic' !important;
+}
+
+@font-face {
+	font-family: 'MyriadPro-Semibold';
+	src: url('../fonts/MyriadProSemibold.eot');
+	src: local('MyriadPro-Semibold'), url('../fonts/MyriadProSemibold.woff') format('woff'),
+		url('../fonts/MyriadProSemibold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_6752">Text with this font applied</p> */
+.mp-semibold {
+	font-family: 'MyriadPro-Semibold' !important;
+}
