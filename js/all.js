@@ -36,13 +36,17 @@ $(function () {
 $('.input-daterange .input-group-addon img').click(function(){
   $(this).parent().prev().datepicker('show');
 });
+
 $('.input-daterange').datepicker({
-  language:'ru', autoclose: 'true', format: 'dd/mm/yyyy', orientation: 'top left'
-})
+  language:'ru',
+  autoclose: 'true', format: 'dd/mm/yyyy', orientation: 'top left'
+}).on('show', function(e){
+        $('.datepicker .selected').eq(1).css({background: 'red'});
+    });
 
 $('.input-group.date').datepicker({
    language:'ru', autoclose: 'true', format: 'dd/mm/yyyy', orientation: 'top left'
-})
+});
 
 // Footable
   $('.footable').footable({
