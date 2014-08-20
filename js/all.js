@@ -33,19 +33,29 @@ $(function () {
   $('select').selectbox();
 
 // Datepicker
-$('.input-daterange .input-group-addon img').click(function(){
+$('.input-range-group .input-group-addon img').click(function(){
   $(this).parent().prev().datepicker('show');
 });
 
-$('.input-daterange').datepicker({
+$('.date').datepicker({
   language:'ru',
-  autoclose: 'true', format: 'dd/mm/yyyy', orientation: 'top left'
-}).on('show', function(e){
-        $('.datepicker .selected').eq(1).css({background: 'red'});
-    });
+  autoclose: 'true',
+  format: 'dd/mm/yyyy',
+  orientation: 'top left'
+});
 
-$('.input-group.date').datepicker({
-   language:'ru', autoclose: 'true', format: 'dd/mm/yyyy', orientation: 'top left'
+$('.input-range-group').each(function(){
+  var startDate = $(this).find('.date-in');
+  var endDate = $(this).find('.date-out');
+  $(this).datepicker({
+    language:'ru',
+    autoclose: 'true',
+    format: 'dd/mm/yyyy',
+    orientation: 'top left',
+    inputs: [startDate, endDate]
+  }).on('show', function(e){
+    $('.datepicker .selected').eq(1).css({background: 'red'});
+  });
 });
 
 // Footable
